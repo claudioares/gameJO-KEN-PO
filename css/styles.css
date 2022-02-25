@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+body{
+    background-color: rgb(78, 7, 7);
+}
+.group{
+    align-items: center;
+    width: 500px;
+    height: 20px;
+	height: 400px;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.822),rgba(16, 3, 51, 0.568)110%), url(../assets/fundo1.jpg);
+ 	margin-left:auto;
+    margin-right:auto;
+ 	margin-top:100px;
+	text-align:center;
+    
+	padding:10px;
+    color: rgb(255, 246, 251);
+    font-family: 'Josefin Sans', sans-serif;
+}
+#button{
+    background-color: rgba(0,0,0,.50);
+     
+     color: rgb(255, 254, 254);
+     border-style: solid;
+     padding: 5px 15px;
+     margin-right: 10px;
+     font-size: 12px;
+
+    cursor: pointer;
+    text-align: center;
+}
+
+#botton:hover{
+    background-color: rgb(219, 204, 201);
+    color: rgb(3, 3, 3);
+}
+ #instructions{
+    text-align: center;
+    font-family: 'Shizuru', cursive;
+}
